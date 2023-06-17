@@ -40,11 +40,12 @@
 //set each variable with a string.
 var Sent1 = ("This is the beginning of the string");
 var Sent2 = (" and this is the end of the string");
- 
-
-//Window alert with a reminder
-window.alert("Your doing great!");
 
 //print a concatenate statement with variable Sent1 and Sent2
 document.write (Sent1 + Sent2);
 
+
+//function that runs whenever called.
+function myFunction() {
+    alert("Page is loaded");
+  }
