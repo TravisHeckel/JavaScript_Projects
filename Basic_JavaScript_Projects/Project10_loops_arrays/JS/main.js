@@ -23,7 +23,7 @@ function for_Loop(){
     var Content="";
     var Y;
     for (Y=0; Y < Instruments.length; Y++) {
-        Content += INstruments[Y] + "<br>";
+        Content += Instruments[Y] + "<br>";
      }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
@@ -76,7 +76,7 @@ function finding_Game() {
     let Find = ["Halo 3","Call of Duty: MW2", "Gears of War 2", "Assassins Creed", "Minecraft"];
     for (let i = 0; i < 5; i++) {
         if (Find[i] === "Gears of War 2") break;
-        document.getElementById("finding_Game").innerHTML = Find[i] + " is not the game I want. <br>";
+        document.getElementById("finding_Game").innerHTML += Find[i] + " is not the game I want. <br>";
     }
     document.getElementById("finding_Games").innerHTML = Find[2] + " is the one I am looking for!";
 }
@@ -86,7 +86,7 @@ function finding_Game2() {
     let Find = ["Halo 3","Call of Duty: MW2", "Gears of War 2", "Assassins Creed", "Minecraft"];
     for (let i = 0; i < 5; i++) {
         if (Find[i] === "Gears of War 2") continue;
-        document.getElementById("finding_Game2").innerHTML = Find[i] + " is not the game I want. <br>";
+        document.getElementById("finding_Game2").innerHTML += Find[i] + " is not the game I want. <br>";
     }
     document.getElementById("finding_Games2").innerHTML = Find[2] + " is the one I forgot!";
 }
