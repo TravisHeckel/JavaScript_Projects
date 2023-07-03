@@ -9,16 +9,24 @@
         <div class="main">
 			<h2>Get The Latest Content:</h2>
 			<div class='content' id="demo">
+                <!--This button acivates the call to the server-->
 				<input type="button" class="button" value="Get Content" id="btn_content" onclick="loadScript();"/>
 			</div>
 		<script type="text/javascript">
+            //This function runs through the request and outputs the content.
             function loadScript() {
+                //This is the new variable that will store the requesting.
                 var xhttp = new XMLHttpRequest();
+
+                //This function will check and determine the status of the requested data.
                 xhttp.onreadystatechange = function () {
                     if (this.readyState == 4 && this.status == 200) {
+                        //This will give a text return of the requested data.
                         document.getElementById("demo").innerHTML = this.responseText;
                     }
                 };
+
+                //This activates the request for data wit the required information to determine what is needed.
                 xhttp.open("GET", "ajax_info.html", true);
                 xhttp.send();
             }
