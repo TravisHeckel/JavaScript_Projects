@@ -2,7 +2,7 @@
  
 This repository contains all practice work used during lessons and several large projects I built.
 
-## PROJECTS
+## Projects
 
 [Tic Tac Toe](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/TicTacToe)
 
@@ -21,7 +21,7 @@ A basic 4 function calculator. Users can add, subtract, multiply and divide on a
 
 This allows for you to build a list of tasks you need to remember and allows for you to remove any of them at will without ruining the list.
 
-Additional projects:
+## Additional Projects
 
 These projects are practice work I did using different elements and libraries.
 
