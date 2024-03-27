@@ -37,7 +37,7 @@ td {
 
 canvas {
     
-    /*This property sets the position of our canvas to the top left corner of our contaienr.*/
+    /*This property sets the position of our canvas to the top left corner of our container.*/
     position: absolute;
     
     /*This proerty palces our canvas over the top of our table.*/
