@@ -1,34 +1,49 @@
-# JavaScript_Projects
- 
-This repository contains all practice work used during lessons and several large projects I built.
+# JavaScript Projects
 
-## Projects
+A collection of JavaScript work built during and after my training at The Tech
+Academy — from small practice exercises to several complete browser apps.
 
-[Tic Tac Toe](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/TicTacToe)
+Every project is plain HTML/CSS/JavaScript (plus a couple using jQuery and React),
+so there's no build step: **clone the repo and open the project's `.html` file in a
+browser** to run it.
 
-The classic game of tic-tac-toe. IT randomly rolls die to select which of the two players goes first and then users are off playing the classic game. Users can decide which token each player wants to use and the winner is celebrated with music and flashing lights.
+## Featured projects
 
-[Pizza project](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/Pizza_Project)
+### [Tic-Tac-Toe](./TicTacToe)
+The classic game. It rolls a die to decide which of the two players goes first,
+lets each player pick their token, and celebrates the winner with sound and
+flashing lights.
 
-This project is a menu used to order pizza with a various selection of toppings. it then takes the input information and calculates a price for the order.
+### [Pizza Ordering](./Pizza_Project)
+An order menu with a selection of toppings. It takes the customer's choices and
+calculates the total price of the order.
 
-[Calculator](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/Calculator)
+### [Calculator](./Calculator)
+A sleek four-function calculator — add, subtract, multiply, and divide — in the
+browser.
 
-A basic 4 function calculator. Users can add, subtract, multiply and divide on a sleek web version of a calculator.
+### [To-Do App](./todo_app)
+Build a list of tasks and remove any of them at will without breaking the rest of
+the list.
 
+## Additional practice
 
-[To-Do application](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/todo_app)
+Smaller exercises focused on specific tools and techniques:
 
-This allows for you to build a list of tasks you need to remember and allows for you to remove any of them at will without ruining the list.
+- **[AJAX Project](./AJAX%20project)** — fetching and displaying data asynchronously
+- **[React Project](./React_Project)** — components and rendering with React
+- **[jQuery Project](./jQuery%20project)** — DOM manipulation with jQuery
+- **[Event Handler Challenge](./Event%20Handler%20Challenge)** — practice wiring up event handlers
+- **[Basic JavaScript Projects](./Basic_JavaScript_Projects)** — assorted fundamentals exercises
 
-## Additional Projects
+## Built with
 
-These projects are practice work I did using different elements and libraries.
+- HTML5
+- CSS3
+- JavaScript (ES5/ES6)
+- jQuery and React (in the projects noted above)
 
-* [AJAX Project](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/AJAX%20project)
-* [React Project](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/React_Project)
-* [jQuery Project](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/jQuery%20project)
-* [Event Handler Challenge](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/Event%20Handler%20Challenge)
-* [Basic Javascript projects](https://github.com/TravisHeckel/JavaScript_Projects/tree/main/Basic_JavaScript_Projects)
+## Author
 
-   
+**Travis Heckel** — [GitHub](https://github.com/TravisHeckel) ·
+[LinkedIn](https://www.linkedin.com/in/travis-heckel-548010147/)
