@@ -1,0 +1,14 @@
+# JetBrains IDEs
+.idea/
+
+# Visual Studio / VS Code
+.vs/
+*.suo
+*.user
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
